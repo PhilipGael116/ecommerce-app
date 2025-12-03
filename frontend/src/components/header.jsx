@@ -2,21 +2,22 @@ import { Link } from 'react-router-dom'
 import { Logo } from '@/components/logo'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import React from 'react'
+import { useState, useEffect } from 'react'
 import { cn } from '@/lib/utils'
+import DarkModeToggle from './DarkModeToggle'
 
 const menuItems = [
-    { name: 'Features', href: '#link' },
-    { name: 'Solution', href: '#link' },
-    { name: 'Pricing', href: '#link' },
+    { name: 'Our Customers', href: '#link' },
+    { name: 'Products', href: '#link' },
+    { name: 'Pricing', href: '#pricing' },
     { name: 'About', href: '#link' },
 ]
 
 export const HeroHeader = () => {
-    const [menuState, setMenuState] = React.useState(false)
-    const [isScrolled, setIsScrolled] = React.useState(false)
+    const [menuState, setMenuState] = useState(false)
+    const [isScrolled, setIsScrolled] = useState(false)
 
-    React.useEffect(() => {
+    useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 50)
         }
@@ -79,7 +80,8 @@ export const HeroHeader = () => {
                                 </ul>
                             </div>
                             <div
-                                className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
+                                className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:items-center">
+                                <DarkModeToggle />
                                 <Button
                                     asChild
                                     variant="outline"
