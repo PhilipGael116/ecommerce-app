@@ -87,7 +87,7 @@ export default function HeroSection() {
                                     <Link
                                         href="#link"
                                         className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
-                                        <span className="text-foreground text-sm">New Arrivals Daily</span>
+                                        <span className="text-foreground text-sm">🎉 New Products Added Daily</span>
                                         <span
                                             className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
@@ -111,7 +111,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                    Modern Solutions for Customer Engagement
+                                    Your Marketplace for Everything
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -120,7 +120,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                    Highly customizable components for building modern websites and applications that look and feel the way you mean it.
+                                    Buy from trusted sellers or start your own store. Join millions of users buying and selling on the world's most trusted marketplace.
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -141,7 +141,7 @@ export default function HeroSection() {
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button asChild size="lg" className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
+                                                <span className="text-nowrap">Start Shopping</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -152,7 +152,7 @@ export default function HeroSection() {
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5">
                                         <Link href="#link">
-                                            <span className="text-nowrap">Request a demo</span>
+                                            <span className="text-nowrap">Become a Seller</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
@@ -197,7 +197,7 @@ export default function HeroSection() {
                         <div
                             className="absolute inset-0 z-10 flex scale-95 items-center justify-center opacity-0 duration-500 group-hover:scale-100 group-hover:opacity-100">
                             <Link href="/" className="block text-sm duration-150 hover:opacity-75">
-                                <span> Meet Our Customers</span>
+                                <span>Trusted by Leading Brands</span>
 
                                 <ChevronRight className="ml-1 inline-block size-3" />
                             </Link>
