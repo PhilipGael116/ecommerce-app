@@ -28,7 +28,7 @@ export default function StatsSection() {
     return (
         <section className="bg-muted/30 py-16 md:py-24">
             <div className="mx-auto max-w-7xl px-6">
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                     {stats.map((stat, index) => (
                         <div key={index} className="text-center">
                             <div className="mb-4 inline-flex size-14 items-center justify-center rounded-2xl bg-primary/10">
